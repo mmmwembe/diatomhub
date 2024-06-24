@@ -11,7 +11,7 @@ db_url = os.getenv("DB_URL")
 def main():
     st.title('Hello, World!')
     st.write("This is a simple Streamlit app deployed on Heroku.")
-    st.write(f"DB URL: {db_url}")  # For demonstration purposes only. Avoid printing sensitive information in real apps.
+    # st.write(f"DB URL: {db_url}")  # For demonstration purposes only. Avoid printing sensitive information in real apps.
 
 if __name__ == '__main__':
     main()
